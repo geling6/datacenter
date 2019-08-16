@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    datacenter:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://10.168.100.181:3306/meta_db?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: 30gmc&t3klly&y
+    hive:
+      driver-class-name: com.mysql.jdbc.Driver
+      jdbcUrl: jdbc:mysql://10.168.100.181:3306/hive_db?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password: 30gmc&t3klly&y
+  redis:
+    database: 9
+    host: 10.168.96.62
+    port: 6379
+    timeout: 100
+  elasticsearch:
+    host: 10.168.100.148:8201,10.168.100.150:8201,10.168.100.154:8201

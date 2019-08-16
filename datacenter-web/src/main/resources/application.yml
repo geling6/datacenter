@@ -1,0 +1,7 @@
+server:
+  port: 9013
+  servlet:
+    context-path: /datacenter
+spring:
+  profiles:
+    active: dev
