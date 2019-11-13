@@ -34,7 +34,7 @@
 		<es.version>6.2.3</es.version>
 		<common.lang3.version>3.7</common.lang3.version>
 		<jackson.version>2.9.8</jackson.version>
-		<jackson.databind.version>2.9.8</jackson.databind.version>
+		<jackson.databind.version>2.9.10.1</jackson.databind.version>
 	</properties>
 	
 	<dependencyManagement>
